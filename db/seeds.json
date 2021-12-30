@@ -1,0 +1,64 @@
+[{
+    "name": "Josh Cellars Chardonnay",
+    "description": "Our Chardonnay is a great balance of bright citrus and honey with a touch of oak character and hints of juicy peach. Crafted with care so that no single flavor overpowers another, this wine is simply delicious. Pairs beautifully with shrimp, steamed mussels, creamy pastas, roasted chicken, and grilled vegetables.",
+    "img": "https://cdn11.bigcommerce.com/s-wi0t7pr29u/products/1590/images/2445/josh_chardonnay__16005.1617120215.386.513.jpg?c=1",
+    "price": 10.99,
+    "qty":25
+},
+{
+    "name": "Josh Cellars Pinot Grigio",
+    "description": "Our California Pinot Grigio is fresh and crisp, brightening any occasion with flavors of melon and citrus and a hint of juicy pear. Pair this wine with lighter seafood dishes or salads with citrus dressing, or enjoy with finger foods like mild cheese or bruschetta with tomato and basilr",
+    "img": "https://www.abcfws.com/ccstore/v1/images/?source=/file/v5881109892782592595/products/500955.jpg&height=940&width=940",
+    "price": 12.99,
+    "qty": 16
+},
+{
+    "name": "Josh Cellars Sauvignon Blanc ",
+    "description": "Aromatic and bright with a crisp, clean finish, this wine features flavors of lemon and kiwi and scents of green apple.Pairs beautifully with seafood appetizers, summer salads, and grilled chicken as well as light and simple foods all year long.",
+    "img": "https://cdn11.bigcommerce.com/s-wi0t7pr29u/products/420/images/2451/josh_sauvignon_blanc__60618.1617120343.386.513.png?c=1",
+    "price": 12.99,
+    "qty": 20
+},
+{
+    "name": "Josh Cellars - Cabernet Sauvignon Reserve",
+    "description": "Fruit forward and balanced, this wine is bursting with aromas of dark fruits and toasted nuts with hints of blackcurrant and rose petal. The palate shows rich flavors of dark cherries, hazelnuts, mocha, and a touch of vanilla leading into a long finish. The tannins are round and smooth. Enjoy this wine with braised short ribs, sautéed portobello mushrooms, well-seasoned steak, or hard cheeses such as aged cheddar or gouda.",
+    "img": "https://cdn11.bigcommerce.com/s-wi0t7pr29u/products/1044/images/2444/josh_cabernet_sauvignon__48199.1617120210.386.513.jpg?c=1",
+    "price": 18.99,
+    "qty": 25
+},
+{
+    "name": "Josh Cellars - Legacy Red",
+    "description": "A rich, velvety red blend bursting with flavors of ripe plum, black cherry and toasted cedar with scents of dark fruit and pepper. This is a delicious, well-balanced blend made to exacting standards. We love pairing this wine with BBQ ribs, leg of lamb, and grilled skirt steak.",
+    "img": "https://cdn11.bigcommerce.com/s-wi0t7pr29u/products/2870/images/2446/josh_legacy_red__39264.1617120221.386.513.png?c=1",
+    "price": 14.99,
+    "qty": 22
+},
+{
+    "name": "Josh Cellars - Pinot Noir",
+    "description": "Our elegantly balanced Pinot Noir has lush cherry and strawberry flavors with a hint of lightly toasted oak. We love pairing this wine with roasted turkey, soft cheeses like Brie or Comté, or hearty vegetables like sautéed mushrooms.",
+    "img": "https://cdn11.bigcommerce.com/s-wi0t7pr29u/products/1967/images/2450/josh_pinot_noir__64309.1617120304.386.513.png?c=1",
+    "price": 18.99,
+    "qty": 27
+},
+{
+    "name": "Josh Cellars Bourbon Barrel Reserve Cabernet Sauvignon",
+    "description": "Our rustic and robust Bourbon Barrel Aged Cabernet Sauvignon starts with our award-winning Josh Cellars Cabernet Sauvignon, which is aged for two months in bourbon barrels, imparting notes of cedar, caramel, and a subtle hint of bourbon. Aromas of dark chocolate, vanilla, coffee, and sweet burnt toffee blend harmoniously with flavors of baked black fruits and hints of barbequed meats. This wine is full-bodied with rich tannins and a lingering finish. Pair this wine with coffee-rubbed steak, smoked vegetables, or your favorite burger.",
+    "img": "https://www.abcfws.com/ccstore/v1/images/?source=/file/v3636671644608521480/products/501855.jpg&height=940&width=940",
+    "price": 18.99,
+    "qty": 22
+},
+{
+    "name": "Josh Cellars Rose",
+    "description": "Crisp, refreshing and bright: our Rosé is perfect for sunsets and warm summer days. This wine is light and easy-to-drink with flavors of white peach and strawberry and hints of nectarine. We love pairing this vibrant Rosé with grilled fish, summer salads, and chilled seafood.",
+    "img": "https://icdn.bottlenose.wine/images/full/607093.jpg",
+    "price": 14.99,
+    "qty": 22
+},
+{
+    "name": "Josh Cellars Merlot",
+    "description": "The bouquet of this Merlot is complex with violets, sweet plums, rosemary, and vanilla bean. On the palate, the wine is velvety and soft in texture, with flavors of juicy plums, blackberries, and Bing cherries, and a long cocoa powder finish and fine tannins. A classic pairing with Italian foods, particularly those with a tomato base, complemented with berries for dessert.",
+    "img": "https://cdn11.bigcommerce.com/s-7a906/images/stencil/1000x1000/products/11844/13284/Josh-Cellars-Merlot__10519.1544810369.jpg?c=2",
+    "price": 16.99,
+    "qty": 22
+}
+]

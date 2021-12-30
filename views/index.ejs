@@ -1,0 +1,24 @@
+<div class="heading">Wine Selections</div>
+  <% wines.forEach(wine => { %>
+    <div align="center" class="wine">
+       <div class="wine1"> 
+            <h3> <a href="/wine/<%= wine.id %>/show"><%= wine.name %></a>
+            </h3>
+            <img class="wine-img" src="<%= wine.img %> " alt="">
+    <p> <%= wine.price %></p>
+</div>
+</div>
+               
+     
+        
+    
+    
+     
+     
+
+    </div>
+    <% }) %>
+</div> 
+</div> 
+    
+</div>

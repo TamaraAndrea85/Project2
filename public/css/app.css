@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+ .nav {
+    background-color: #fff;
+    color: black;
+    list-style: none;
+    text-align: right;
+    padding: 20px 0 0 0;
+
+}
+.nav li{
+    display:inline-block;
+    padding: 0 25px 0 25px;
+    
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+}
+.nav li a:hover {
+    color: #c1c1c1;
+}
+
+.logo{
+    color: black;
+    float: left;
+    padding-left: 25px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    width: 100%;
+    display: block;
+
+}
+
+ .banner .banner-img {
+    width: 100%;
+    display: block;
+   
+}
+
+.wine1{
+   width: 298px;
+   border: 1px solid grey; 
+   margin: 20px 10px;
+   padding: 0 5px;
+   display:flexbox;
+   
+
+}
+
+.wine1 p {
+    font-size: 14px;
+    color: black;
+    max-width: 250px;
+}
+
+.wine{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h3 {
+   font-size: 16px;
+   text-decoration: none;
+   font-weight: bold;
+   background-color: #c1c1c1;
+   color: black;
+   padding: 10px 0 0 0;
+   margin: 0 -6px;
+
+
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.wine-img{
+    min-width: 200px;
+    max-width: 200px;
+    margin: 15px 0 0 0;
+}
+.heading{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin: 100px 0 50px 0;
+
+}
+
+
+
+
+
+
