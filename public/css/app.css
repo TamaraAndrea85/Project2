@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* background-color: #3e77a2; */
+    
+}
+ .nav {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    list-style: none;
+    text-align: right;
+    padding: 20px 0 0 0;
+
+}
+.nav li{
+    display:inline-block;
+    padding: 0 25px 0 25px;
+    
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+}
+.nav li a:hover {
+    color: #abdd2c;
+}
+
+.logo{
+    color: black;
+    float: left;
+    padding-left: 25px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    width: 100%;
+    display: block;
+
+}
+
+ .banner .banner-img {
+    width: 100%;
+    height: 475px;
+    display: block;
+   
+}
+
+.sneakers{
+   width: 298px;
+   border: 1px solid grey; 
+   margin: 20px 10px;
+   padding: 0 5px;
+   display:flexbox;
+   
+
+}
+
+.sneakers p {
+    font-size: 14px;
+    color: black;
+    max-width: 250px;
+}
+
+.sneaker{
+    margin: 0 auto;
+}
+
+h3 {
+   font-size: 16px;
+   text-decoration: none;
+   font-weight: bold;
+   background-color: #c1c1c1;
+   color: black;
+   padding: 10px 0 0 0;
+   text-align: center;
+   margin: 0 -6px;
+
+
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+   
+}
+
+.sneaker-img{
+    max-width: 300px;
+    margin: 15px 0 0 0;
+}
+.heading{
+    text-align: center;
+    color: #71b9c7;
+    margin: 100px 0 50px 0;
+    font-size: 100px;
+
+}
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.edit-form {
+    font-size: 30px;
+    margin: 150px 0 100px 0;
+}
+
+form input{
+    font-size: .75em;
+    display: flexbox;
+}  
+
+.new-form {
+    font-size: 30px;
+    margin: 150px 0 100px 0;
+}
+
+    
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+<div class="heading">Sneakers</div>
+<div class="container2">
+  <% sneakers.forEach(sneaker => { %>
+    <div  class="sneaker">
+       <div class="sneakers"> 
+            <h3><a href="/sneaker/<%= sneaker.id %>/show"><%= sneaker.name %></a>
+            </h3>
+            <img class="sneaker-img" src="<%= sneaker.img %> " alt="">
+    <h3>SIZE: <%= sneaker.size %></h3>
+      </div>  
+    </div>
+               
+     
+        
+    
+    
+     
+     
+
+
+    <% }) %>
+  </div>
+
+ 
+    
+
