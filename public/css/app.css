@@ -3,15 +3,17 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    /* background-color: #3e77a2; */
+     background-color: white; 
     
 }
  .nav {
-    background-color: #fff;
+    background-color: white;
     color: rgb(0, 0, 0);
     list-style: none;
     text-align: right;
     padding: 20px 0 0 0;
+    /* margin: 20px 0 0 0; */
+   
 
 }
 .nav li{
@@ -23,6 +25,7 @@ body{
 .nav li a {
     text-decoration: none;
     color: black;
+    font-size: 30px;
 }
 .nav li a:hover {
     color: #abdd2c;
@@ -31,14 +34,18 @@ body{
 .logo{
     color: black;
     float: left;
-    padding-left: 25px;
-    font-size:20px;
+    padding-left: 40px;
+    font-size:30px;
     font-weight: bold;
 }
 
-.logo a {
+.logo a:hover {
     text-decoration: none;
     color: black;
+}
+
+.logo a:hover {
+    color:#abdd2c;
 }
 
 .banner {
@@ -49,38 +56,46 @@ body{
 
  .banner .banner-img {
     width: 100%;
-    height: 475px;
-    display: block;
+    height: 600px;
+    display: flexbox;
    
 }
 
 .sneakers{
-   width: 298px;
-   border: 1px solid grey; 
+   width: 500px;
+   border: 1px solid #ffff; 
    margin: 20px 10px;
-   padding: 0 5px;
-   display:flexbox;
+   padding: 0 20px;
+   display: flexbox;
+  justify-content:  center;
    
 
 }
 
 .sneakers p {
-    font-size: 14px;
+    font-size: 35px;
     color: black;
-    max-width: 250px;
+    max-width: 300px;
+    display: flexbox;
 }
 
 .sneaker{
     margin: 0 auto;
+   
+}
+
+#text {
+    font-size: 35px;
+    justify-content: center;
 }
 
 h3 {
-   font-size: 16px;
+   font-size: 20px;
    text-decoration: none;
    font-weight: bold;
-   background-color: #c1c1c1;
+   background-color: #6be8a4;
    color: black;
-   padding: 10px 0 0 0;
+   padding: 15px 0 0 0;
    text-align: center;
    margin: 0 -6px;
 
@@ -95,12 +110,13 @@ a{
 }
 
 .sneaker-img{
-    max-width: 300px;
-    margin: 15px 0 0 0;
+    max-width: 100%;
+    margin: 30px 0 0 0;
+    
 }
 .heading{
     text-align: center;
-    color: #71b9c7;
+    color: #3e3fef;
     margin: 100px 0 50px 0;
     font-size: 100px;
 
@@ -108,6 +124,7 @@ a{
 .container2 {
     display: flex;
     flex-wrap: wrap;
+  justify-content: space-evenly;
 
 }
 

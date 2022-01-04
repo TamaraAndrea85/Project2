@@ -2,10 +2,12 @@
 <form action="/sneaker/<%=sneaker.id %>?_method=PUT" method="POST">
     <label for="name">Name</label>
     <input type="text" name='name' id='name'value='<%= sneaker.name %>'>
-    <label for="img">Image Link</label>
-    <input type="text" name='img' id='img' value='<%= sneaker.img %>'>
     <label for="brand">Brand</label>
-    <input type="text" name='brand' id='brand' value='<%= sneaker.brand %>'>
+    <input type="text" name='brand' id='brand'value='<%= sneaker.brand %>'>
+    <label for="colorway">COLORWAY</label>
+    <input type="text" name='colorWay' id='colorWAy' value='<%= sneaker.colorWay %>'>
+    <label for="image">Image</label>
+    <input type="text" name='img' id='img' value='<%= sneaker.img %>'>
     <label for="size">Size</label>
     <input type="text" name='size' id='size'value='<%= sneaker.size %>'>
     <label for="word">Worn</label>

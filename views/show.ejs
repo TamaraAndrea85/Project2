@@ -5,7 +5,8 @@
             <h3><a href="/sneaker/<%= sneaker.id %>/show"><%= sneaker.name %></a>
             </h3>
             <img class="sneaker-img" src="<%= sneaker.img %> " alt="">
-    <h3>Brand:<%= sneaker.brand %></h3>
+    <h3>Brand: <%= sneaker.brand %></h3>
+    <h3>Colorway: <%= sneaker.colorWay %></h3>
     <h3>Size: <%= sneaker.size %></h3>
     <% if (sneaker.worn > 0) { %>
         <h3>Worn: <%= sneaker.worn %>. I have worn these</h3>
