@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
      background-color: white; 
     
 }
@@ -61,8 +60,8 @@ body{
    
 }
 
-.sneakers{
-   width: 500px;
+ /* .sneakers{
+   width: 500px; 
    border: 1px solid #ffff; 
    margin: 20px 10px;
    padding: 0 20px;
@@ -70,24 +69,26 @@ body{
   justify-content:  center;
    
 
-}
+}  */
 
-.sneakers p {
+ /* .sneakers p {
     font-size: 35px;
     color: black;
     max-width: 300px;
     display: flexbox;
-}
+}  */
 
-.sneaker{
-    margin: 0 auto;
+   .sneaker{
+       width: 500px;
+       
+      
    
-}
+} 
 
-#text {
+ /* #text {
     font-size: 35px;
-    justify-content: center;
-}
+    text-align: center;
+}  */
 
 h3 {
    font-size: 20px;
@@ -109,11 +110,12 @@ a{
    
 }
 
-.sneaker-img{
+ .sneaker-img{
     max-width: 100%;
     margin: 30px 0 0 0;
+   
     
-}
+} 
 .heading{
     text-align: center;
     color: #3e3fef;
@@ -121,12 +123,25 @@ a{
     font-size: 100px;
 
 }
+
 .container2 {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2);
+    justify-content: space-evenly;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
     display: flex;
     flex-wrap: wrap;
-  justify-content: space-evenly;
+    
+   
+  } 
+  /* .container2 {
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-evenly; 
+  max-width: 300px;
 
-}
+} */
 
 .edit-form {
     font-size: 30px;

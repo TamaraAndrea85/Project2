@@ -1,28 +1,15 @@
 <div class="heading">Sneakers</div>
 <div class="container2">
   <% sneakers.forEach(sneaker => { %>
-    <div  class="sneaker">
-       <div class="sneakers"> 
-            <h3><a href="/sneaker/<%= sneaker.id %>/show"><%= sneaker.name %></a>
-            </h3>
-            <img class="sneaker-img" src="<%= sneaker.img %> " alt="">
-    
-      </div>
-      <p id='text'>Colorway: <%= sneaker.colorWay %></p>
-    <p id='text'>SIZE: <%= sneaker.size %></p>  
-    </div>
-               
-     
-        
-    
-    
-     
-     
-
-
-    <% }) %>
+  <div class="sneaker">
+    <img class="sneaker-img" src=<%=sneaker.img %> alt="Some nike sneakers" style="width:100%">
+  <h1><a href="/sneaker/<%= sneaker.id %>/show"><%= sneaker.name %></a></h1>
+  <h2 style="text-align: center;">Colorway: <%= sneaker.colorWay %></h2>
+    <h2>size: <%= sneaker.size %></h2>
   </div>
 
- 
-    
+    <% }) %>
+</div>
+
+
 
