@@ -1,25 +1,48 @@
 <div class="heading">Sneakers</div>
-<div class="container2">
-    <div  class="sneaker">
-       <div class="sneakers"> 
-            <h3><a href="/sneaker/<%= sneaker.id %>/show"><%= sneaker.name %></a>
-            </h3>
-            <img class="sneaker-img" src="<%= sneaker.img %> " alt="">
-    <h3>Brand: <%= sneaker.brand %></h3>
-    <h3>Colorway: <%= sneaker.colorWay %></h3>
-    <h3>Size: <%= sneaker.size %></h3>
-    <% if (sneaker.worn > 0) { %>
-        <h3>Worn: <%= sneaker.worn %>. I have worn these</h3>
-           <% } else { %>
-                <h3>Need to wear</h3>
-        <% } %>
+<body class="show">
+
+    <div class="sneaker-card">
+      <h1><%= sneaker.name%></h1>
+      <h2><%= sneaker.brand %></h2>
+      <div class="sneaker-pic">
+          <img src="<%= sneaker.img%>" alt="picture of a sneaker">
+        </div>
+          
+        
+        <div class="sneaker-info">
+          <div class="sneaker-colorway">
+              <h2><%= sneaker.colorWay %></h2>
+            </div>
+        <div class="sneaker-size">
+        <h2><%= sneaker.size %></h2>
+        </div>
+        <% if (sneaker.worn > 0) { %>
+            <h2>Worn: <%= sneaker.worn %>. I have worn these</h2>
+               <% } else { %>
+                    <h2>Need to wear</h2>
+                    <% } %>
+        
+      </div>
+      <a class="edit-link" href="/sneaker/<%= sneaker.id %>/edit">Edit this sneaker</a>
+      <form style = "text-align:center; font-size: 20px;" action="/sneaker/<%=sneaker.id%>?_method=DELETE" method="POST"><input type="submit" value="DELETE"></form>
+    </div>
+
+  </body>
+            
+          
+      
+      
+        
+
+        
+      
+    
+        
+   
 
         
 
-    </div> 
-        <a class="edit-link" href="/sneaker/<%= sneaker.id %>/edit">Edit this sneaker</a>
-        <form style = "text-align: center;" action="/sneaker/<%=sneaker.id%>?_method=DELETE" method="POST"><input type="submit" value="Delete"></form> 
-    </div>
+    
 
     
                
@@ -27,7 +50,7 @@
         
     
     
-      </div>
+      
 
  
     

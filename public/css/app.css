@@ -3,6 +3,7 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
      background-color: white; 
+     color: #000;
     
 }
  .nav {
@@ -11,7 +12,7 @@ body{
     list-style: none;
     text-align: right;
     padding: 20px 0 0 0;
-    /* margin: 20px 0 0 0; */
+    
    
 
 }
@@ -60,37 +61,15 @@ body{
    
 }
 
- /* .sneakers{
-   width: 500px; 
-   border: 1px solid #ffff; 
-   margin: 20px 10px;
-   padding: 0 20px;
-   display: flexbox;
-  justify-content:  center;
-   
 
-}  */
-
- /* .sneakers p {
-    font-size: 35px;
-    color: black;
-    max-width: 300px;
-    display: flexbox;
-}  */
+ 
 
    .sneaker{
        width: 500px;
-       
+   }
+         
       
-   
-} 
-
- /* #text {
-    font-size: 35px;
-    text-align: center;
-}  */
-
-h3 {
+   h3 {
    font-size: 20px;
    text-decoration: none;
    font-weight: bold;
@@ -99,23 +78,14 @@ h3 {
    padding: 15px 0 0 0;
    text-align: center;
    margin: 0 -6px;
-
-
 }
 
 a{
     text-decoration: none;
     font-weight: bold;
     color: black;
-   
 }
 
- .sneaker-img{
-    max-width: 100%;
-    margin: 30px 0 0 0;
-   
-    
-} 
 .heading{
     text-align: center;
     color: #3e3fef;
@@ -125,23 +95,16 @@ a{
 }
 
 .container2 {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 px 16px 0 rgba(0, 0, 0, 0.0);
     justify-content: space-evenly;
     margin: auto;
     text-align: center;
     font-family: arial;
     display: flex;
     flex-wrap: wrap;
-    
    
-  } 
-  /* .container2 {
-    display: flex;
-    flex-wrap: wrap;
-  justify-content: space-evenly; 
-  max-width: 300px;
-
-} */
+} 
+  
 
 .edit-form {
     font-size: 30px;
@@ -158,10 +121,73 @@ form input{
     margin: 150px 0 100px 0;
 }
 
-    
+
+ *{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans",sans-serif;
+  box-sizing: border-box;
+}
+  
+.show{
+  background: white;
+   transition: 0.6s linear; 
+}
+ 
+.sneaker-card{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 1000px;
+  background: #ecedef;
+  padding: 30px;
+  position:absolute;
+  left: 50%;
+  top: 85%;
+  transform: translate(-50%,-50%);
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+.sneaker-card h1{
+  font-size: 48px;
+  margin-bottom: 4px;
+}
+.sneakert-card h2{
+  font-size: 40px;
+  color: #bbb;
+}
+.sneaker-pic{
+  width: 495%;
+  height: 595px;
+  display: flex;
+  transition: .6s linear;
+}
 
 
+ 
 
-
-
+.sneaker-info{
+  display:inline-block;
+  align-items: center;
+}
+.sneaker-size{
+  color: black;
+  font-size: 24px;
+}
+.edit-link{
+  margin-left: auto;
+  color: black;
+  text-decoration: none;
+  border: 2px solid;
+  padding: 8px 24px;
+  border-radius: 20px;
+  transition: .5s linear;
+  display: flex;
+  justify-content: center;
+}
+ 
+.edit-link:hover{
+  transform: scale(1.06);
+}
+form{
+   size: 16px;
+}
 
