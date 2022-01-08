@@ -1,14 +1,21 @@
+<head>
+  <div class="banner">
+    <img class="banner-img" src="https://uploads-ssl.webflow.com/603d7c57109fdd03a52d4048/60c7d7d74701b738d8d26a89_nike_drop.jpeg">
+  </div>
+</head>
 <div class="heading">Sneakers</div>
-<div class="container2">
+
+<div class="wrapper">
   <% sneakers.forEach(sneaker => { %>
+
   <div class="sneaker">
-    <img class="sneaker-img" src=<%=sneaker.img %> alt="Some nike sneakers" style="width:100%">
-  <h1><a href="/sneaker/<%= sneaker.id %>/show"><%= sneaker.name %></a></h1>
-  <h2 style="text-align: center;">Colorway: <%= sneaker.colorWay %></h2>
-    <h2>size: <%= sneaker.size %></h2>
+    <div class="sneaker-polaroid"><img src="<%= sneaker.img%>">
+      <div class="name"><a href="/sneaker/<%= sneaker.id %>/show"><%= sneaker.name %></a></div>
+    </div>
   </div>
 
-    <% }) %>
+  
+  <% }) %>
 </div>
 
 
