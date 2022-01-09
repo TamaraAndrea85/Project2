@@ -1,18 +1,37 @@
+<div class="edit-sneaker"></div>
+<body class="body">
+    <h1 style="font-family: 'Permanent Marker', cursive;"class="edit-title">EDIT THIS SNEAKER</h1>
+
 <div class="edit-form">
 <form action="/sneaker/<%=sneaker.id %>?_method=PUT" method="POST">
-    <label for="name">Name</label>
-    <input type="text" name='name' id='name'value='<%= sneaker.name %>'>
-    <label for="brand">Brand</label>
-    <input type="text" name='brand' id='brand'value='<%= sneaker.brand %>'>
-    <label for="colorway">COLORWAY</label>
-    <input type="text" name='colorWay' id='colorWAy' value='<%= sneaker.colorWay %>'>
-    <label for="image">Image</label>
-    <input type="text" name='img' id='img' value='<%= sneaker.img %>'>
-    <label for="size">Size</label>
-    <input type="text" name='size' id='size'value='<%= sneaker.size %>'>
-    <label for="word">Worn</label>
-    <input type="text" name='worn' id='worn' value='<%= sneaker.worn %>'>
-    <input type="submit"value='Edit Sneaker'>
+    <label style="font-family: 'Architects Daughter', cursive;" for="name">Name</label>
+    <input style="font-family: 'Architects Daughter', cursive; width:100%;color:#abdd2c; padding:10px;
+    border-radius:10px; box-shadow: 10px 5px 5px #abdd2c" type="text" name='name' id='name'value='<%= sneaker.name %>'>
+    <label style="font-family: 'Architects Daughter', cursive;" for="brand">Brand</label>
+    <input style="font-family: 'Architects Daughter', cursive; width:100%;color:#416dd1; padding:10px;
+    border-radius:10px; box-shadow: 10px 5px 5px #416dd1;" type="text" name='brand' id='brand'value='<%= sneaker.brand %>'>
+    <label style="font-family: 'Architects Daughter', cursive;" for="colorway">COLORWAY</label>
+    <input style="font-family: 'Architects Daughter', cursive; width:100%;color:#77ceb2; padding:10px;
+    border-radius:10px; box-shadow: 10px 5px 5px #77ceb2;" type="text" name='colorWay' id='colorWAy' value='<%= sneaker.colorWay %>'>
+    <label style="font-family: 'Architects Daughter', cursive;" for="image">Image</label>
+    <input style="font-family: 'Architects Daughter', cursive; width:100%;color:#4041f1; padding:10px;
+    border-radius:10px; box-shadow: 10px 5px 5px #4041f1;"type="text" name='img' id='img' value='<%= sneaker.img %>'>
+    <label style="font-family: 'Architects Daughter', cursive;" for="size">Size</label>
+    <input style="font-family: 'Architects Daughter', cursive; width:100%;color:#0000c1; padding:10px;
+    border-radius:10px; box-shadow: 10px 5px 5px #0000c1;"type="text" name='size' id='size'value='<%= sneaker.size %>'>
+    <label style="font-family: 'Architects Daughter', cursive;" for="word">Worn</label>
+    <input style="font-family: 'Architects Daughter', cursive; width:100%;color:#648063; padding:10px;
+    border-radius:10px; box-shadow: 10px 5px 5px #648063;"type="text" name='worn' id='worn' value='<%= sneaker.worn %>'>
+    <br>
+    <input style="font-family: 'Architects Daughter', cursive; width:100%;color:#417da2; padding:10px;
+    border-radius:10px; box-shadow: 10px 5px 5px #417da2;"type="submit"value='Edit Sneaker'>
 
 </form>
 </div>
+</body>
+
+
+
+    
+    
+    
