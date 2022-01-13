@@ -55,11 +55,11 @@ c
             } else {
                 req.session.message = "Invalid username or password"
                 
-                res.redirect('/session/login')
+                res.redirect('/sessions/login')
             }
         } else {
             req.session.message = 'Invalid username or password'
-            res.redirect('/session/login')
+            res.redirect('/sessions/login')
         }
     } catch (err) {
         next(err)
@@ -68,6 +68,6 @@ c
 
 router.get('/logout', (req, res) => {
     req.session.destroy()
-    res.redirect('/session/login')
+    res.redirect('/sessios/login')
 })
 module.exports = router
