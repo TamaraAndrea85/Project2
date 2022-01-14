@@ -1,43 +1,55 @@
-<body calss="body">
-    <h1 style="font-family: 'Permanent Marker', cursive;"class="new-title">ADD A NEW SNEAKER</h1>
-<div class="new-sneaker"></div>
-    
-    
-    <div class="new-form">
-    
-    <form action="/sneaker" method="POST">
-    
-    <label style="font-family: 'Architects Daughter', cursive;" for="name">Name</label>
-    <input style= "font-family: 'Architects Daughter', cursive;width:100%;color:#abdd2c; padding:10px;
-    border-radius:10px; box-shadow: 10px 5px 5px #abdd2c;"type="text" name='name' id='name'>
-    <br>
-    <label style="font-family: 'Architects Daughter', cursive;" for="brand">Brand</label>
-    <input style= "font-family: 'Architects Daughter', cursive;width:100%;color:#416dd1; padding:10px;
-    border-radius:10px; box-shadow: 10px 5px 5px #416dd1;"type="text" name='brand' id='brand'>
-    <br>
-    <label style="font-family: 'Architects Daughter', cursive;" for="colorWay">ColorWay</label>
-    <input style= "font-family:'Architects Daughter', cursive ;width:100%;color:#77ceb2; padding:10px;
-    border-radius:10px; box-shadow: 10px 5px 5px #77ceb2;"type="text" name='colorway' id='colorway'>
-    <br>
-    <label style="font-family: 'Architects Daughter', cursive;"for="img">Image-Link</label>
-    <input style="font-family: 'Architects Daughter', cursive; width:100%;color:#4041f1; padding:10px;
-    border-radius:10px; box-shadow: 10px 5px 5px #4041f1;" type="text" name='img' id='img'>
-    <br>
-    <label style="font-family: 'Architects Daughter', cursive;"for="size">Size</label>
-    <input style="font-family: 'Architects Daughter', cursive; width:100%;color:#0000c1; padding:10px;
-    border-radius:10px; box-shadow: 10px 5px 5px #0000c1;"type="text" name="size" id="size">
-    <br>
-    <label style="font-family: 'Architects Daughter', cursive;" for="worn">Worn</label>
-    <input style="font-family: 'Architects Daughter', cursive;width:100%;color:#648063; padding:10px;
-    border-radius:10px; box-shadow: 10px 5px 5px #648063;"type="text" name='worn' id='worn'>
-    <br>
-    <input style="font-family: 'Architects Daughter', cursive;width:100%;color:#417da2; padding:10px;
-    border-radius:10px; box-shadow: 10px 5px 5px #417da2;"style="text-align: center;" type="submit"value='Add Sneaker'>
-
-</form>
-</div>
-
-</body>
-
+<div class="new-div">
+            <div class="edit-card">
+                <h2>Add New Sneaker</h2>
+                <div class="row">
+                  <div class="col">
+                    <div class="form-group">
+                        <form action="/sneaker" method="POST">
+                            <label for="name">Name</label>
+                            <input type="text" name='name' id='name'>
+                    </div>
+                  </div>
+              
+                  <div class="col">
+                    <div class="form-group">
+                        <label for="brand">Brand</label>
+                        <input type="text" name='brand' id='brand'>
+                    </div>
+                  </div>
+              
+                  <div class="col">
+                    <div class="form-group">
+                        <label for="colorWay">ColorWay</label>
+                        <input type="text" name='colorWay' id='colorWay'>
+                    </div>
+                  </div>
+              
+                  <div class="col">
+                    <div class="form-group">
+                        <label for="img">Image Link</label>
+                        <input type="text" name='img' id='img'>
+                    </div>
+                  </div>
+              
+                  <div class="col">
+                    <div class="form-group">
+                        <label for="size">size</label>
+                        <input type="text" name='size' id='size'>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-group">
+                        <label for="worn"># worn</label>
+                        <input type="text" name='worn' id='worn'>
+                    </div>
+                  </div>
+              
+                  <div class="col">
+                    <input class="edit-input" type="submit" value='Add Sneaker'>
+                </form>
+                  </div>
+                </div>
+              </div>
+            </div>
 
 

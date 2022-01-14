@@ -1,16 +1,35 @@
-<h1>Register</h1>
-<form action="/session/register" method="POST">
-    <fieldset>
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username">
-    </fieldset>
-    <fieldset>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password">
-    </fieldset>
-    <fieldset>
-        <label for="verifyPassword">Re-type Password:</label>
+<div class="new-div">
+    <div class="edit-card">
+        <h2>Add New Sneaker</h2>
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+                <form action="/session/register" method="POST">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username">
+            </div>
+          </div>
+      
+          <div class="col">
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </div>
+          </div>
+      
+          <div class="col">
+            <div class="form-group">
+                <label for="verifyPassword">Re-type Password:</label>
         <input type="password" id="verifyPassword" name="verifyPassword">
-    </fieldset>
-    <input type="submit" value="Register">
-</form>
+            </div>
+          </div>
+      
+          <div class="col">
+            <input class="edit-input" type="submit" value='Register'>
+        </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+

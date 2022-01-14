@@ -1,42 +1,42 @@
 <head>
     <div class="banner">
-        <img class="banner-img" src="https://uploads-ssl.webflow.com/603d7c57109fdd03a52d4048/60c7d7d74701b738d8d26a89_nike_drop.jpeg">
+        <img class="banner-img" src="/images/Su15_RN_Vomero_W_Hero_Tight_hd_1600.jpeg">
       </div>
 
 </head>
 <div class="heading">Sneakers</div>
-
-<body class="show-body">
+<div class="show-body">
+  
     
     <div class = "show-wrapper">
-      <div class = "card">
+      <div class = "show-card">
         <!-- card left -->
         <div class = "product-imgs">
           <div class = "img-display">
             <div class = "img-showcase">
-              <img src = "<%= sneaker.img%>" alt = "shoe image">
+              <img class="show-img"src = "<%= sneaker.img%>" alt = "shoe image">
               
             </div>
           </div>
           <div class = "img-select">
             <div class = "img-item">
               <a href = "#" data-id = "1">
-                <img src = "<%= sneaker.img%>" alt = "shoe image">
+                <img class="show-img"src = "<%= sneaker.img%>" alt = "shoe image">
               </a>
             </div>
             <div class = "img-item">
               <a href = "#" data-id = "2">
-                <img src = "<%= sneaker.img%>" alt = "shoe image">
+                <img class="show-img" src = "<%= sneaker.img%>" alt = "shoe image">
               </a>
             </div>
             <div class = "img-item">
               <a href = "#" data-id = "3">
-                <img src = "<%= sneaker.img%>" alt = "shoe image">
+                <img class="show-img"src = "<%= sneaker.img%>" alt = "shoe image">
               </a>
             </div>
             <div class = "img-item">
               <a href = "#" data-id = "4">
-                <img src = "<%= sneaker.img%>" alt = "shoe image">
+                <img class="show-img" src = "<%= sneaker.img%>" alt = "shoe image">
               </a>
             </div>
           </div>
@@ -45,21 +45,14 @@
         <div class = "sneaker-content">
             <h1 style="font-family: 'Permanent Marker', cursive;"class="sneaker-brand"> <%= sneaker.brand %></h1>
           <h2 class = "sneaker-name"><%= sneaker.name %></h2>
-          <div class = "product-rating">
-            <i class = "fas fa-star"></i>
-            <i class = "fas fa-star"></i>
-            <i class = "fas fa-star"></i>
-            <i class = "fas fa-star"></i>
-            <i class = "fas fa-star-half-alt"></i>
-            <span>4.7(21)</span>
-          </div>
+          
 
           <div class="sneaker-detail">
             <h2 style="font-family: 'Permanent Marker', cursive;">ABOUT THIS SNEAKER:</h2>
             <h3><%= sneaker.colorWay %></h3>
             <h3><%= sneaker.size%></h3>
                 <% if (sneaker.worn > 0) { %>
-                    <h3>  <%= sneaker.worn %></h3>
+                    <h3> worn: <%= sneaker.worn %></h3>
                     <% } else { %>
                         <h3>need to wear</h3>
                         
@@ -69,20 +62,27 @@
             
           </div>
           <a href ="/sneaker/<%= sneaker.id %>/edit" class = "sneaker-link">Edit Sneaker</a>
-
-          <div class = "delete-sneaker">
-            <form style = "text-align: left;" action="/sneaker/<%=sneaker.id%>?_method=DELETE" method="POST"><input type="submit" value="Delete"></form>
+          <div class= "delete-sneaker">
+            <form style ="text-align: left;" action="/sneaker/<%=sneaker.id%>?_method=DELETE" method="POST">
+              <input class="edit-input" type="submit" value='DELETE'></form>
           </div>
 
-          
-        </div>
+           </div>
+           
       </div>
+      
     </div>
+  </div>
+  
+
+    
+ 
+
 
     
     <script src="script.js"></script>
-  </body>
-<body class="show">
+</div>
+
 
     
 
