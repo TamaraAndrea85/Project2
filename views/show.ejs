@@ -51,13 +51,17 @@
             <h2 style="font-family: 'Permanent Marker', cursive;">ABOUT THIS SNEAKER:</h2>
             <h3><%= sneaker.colorWay %></h3>
             <h3><%= sneaker.size%></h3>
-                <% if (sneaker.worn > 0) { %>
-                    <h3> worn: <%= sneaker.worn %></h3>
-                    <% } else { %>
+                
+            <% if (sneaker.worn > 0) { %>
+                <h3> worn: <%= sneaker.worn %></h3>
+                <form action="/sneaker/<%= sneaker.id %>/show?_method=PUT" method="POST"></form>
+
+                  <% } else { %>
                         <h3>need to wear</h3>
+            <% } %>
                         
                    
-                   <% } %>
+                  
                   
             
           </div>
@@ -65,6 +69,7 @@
           <div class= "delete-sneaker">
             <form style ="text-align: left;" action="/sneaker/<%=sneaker.id%>?_method=DELETE" method="POST">
               <input class="edit-input" type="submit" value='DELETE'></form>
+             
           </div>
 
            </div>
@@ -80,8 +85,9 @@
 
 
     
-    <script src="script.js"></script>
+    
 </div>
+
 
 
     

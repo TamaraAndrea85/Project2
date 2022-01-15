@@ -1,10 +1,10 @@
-body{
-  background-color: lightgray;
+/* body{
+  background-color: transparent;
   padding: 0;
   font-family:monospace;
   color: #000;
     
-} 
+}  */
 /* nav bar */
  .nav {
     background-color: white;
@@ -20,16 +20,16 @@ body{
 }
 .nav li a {
     text-decoration: none;
-    color: black;
+    color: #110510;
     font-size: 40px;
     font-family:'Permanent Marker', cursive;
     font-weight: bolder;
 }
 .nav li a:hover {
-    color: #abdd2c;
+    color: #bcb0bc;
 }
 .logo{
-    color: black;
+    color: #2b2934;
     float: left;
     padding-left: 40px;
     font-size:35px;
@@ -41,7 +41,9 @@ body{
     font-weight: bold;
 }
 .logo a:hover {
-    color:#abdd2c;
+    color: #bcb0bc;
+
+    
 }
 
 /* banner */
@@ -58,7 +60,7 @@ body{
 /* heading */
 .heading{
   text-align: center;
-  color: #3e3fef;
+  color: #d4ddef;
   margin: 100px 0 50px 0;
   font-size: 250px;
   font-family: 'Permanent Marker', cursive;
@@ -70,6 +72,7 @@ body{
     background-repeat: no-repeat;
     padding: 74em;   
     opacity: 0.35;
+    position: relative;
     
   }  
    html,.edit-div {
@@ -83,8 +86,9 @@ body{
     font-family:'Permanent Marker', cursive;
     display: flex;
     align-items: center;
-    height: 100vh; 
+    height: 100vh;  
     justify-content: center;
+    position:relative;
     
 } 
   
@@ -96,8 +100,9 @@ body{
     box-shadow: 20px 20px 0 #b56ad6;
     border-radius: 50px;
     position: relative; 
-    bottom: 90%;
+    bottom: 100%;
     display: blok;
+    
 }
   
   .edit-card h2 {
@@ -415,7 +420,7 @@ line-height: 1.5;
   text-transform: capitalize;
   font-weight: 700;
   position: relative;
-  color: #12263a;
+  color: #1b0f33;
   margin: 1rem 0;
   font-family: 'Permanent Marker', cursive;
   
@@ -428,7 +433,7 @@ line-height: 1.5;
   bottom: 0;
   height: 4px;
   width: 80px;
-  background: #12263a;
+  background: #1b0f33;
 }
 
 .sneaker-link{
@@ -438,19 +443,20 @@ line-height: 1.5;
   font-size: 45px;
   display: inline-block;
   margin-bottom: 0.5rem;
-  color: #12263a;
+  color: #1b0f33;
   padding: 0 0.3rem;
   transition: all 0.5s ease;
   font-family: 'Architects Daughter', cursive;
 }
 .sneaker-link:hover{
   opacity: 0.5;
-  transform: scale(1.06)
+  transform: scale(1.06);
+  color: #2e2159;
 }
 
 .sneaker-name {
   /* text-transform: capitalize; */
-  color: #12263a;
+  color: #2e2159;
   padding-bottom: 20px;
   font-size: 80px;
   font-family: 'Architects Daughter', cursive;
@@ -511,10 +517,11 @@ line-height: 1.5;
   max-width: 100%;
   height: auto;
 }
-.name {
+#name {
   font-size: 1.8rem;
   text-align: center;
   line-height: 2em;
+  text-decoration: none;
 }
 .sneaker {
   width: 30%;
@@ -596,7 +603,7 @@ line-height: 1.5;
 
 /* login */
 .login-background{
-  background-image: url("/images/images.jpeg");
+  background-image: url("/images/anotherbackground.jpeg");
   background-size: cover;  
   background-repeat: no-repeat;
   padding: 74em;   
@@ -623,8 +630,8 @@ line-height: 1.5;
   font-family:'Permanent Marker', cursive;
   width: 50%;
   padding: 53px 90px 90px 90px;
-  border: 6px solid rgba(64, 26, 125, 0.3);
-  box-shadow: 20px 20px 0 #b56ad6;
+  border: 6px solid rgba(45, 43, 48, 0.3);
+  box-shadow: 20px 20px 0 #5d6aa6;
   border-radius: 50px;
   position: relative; 
   bottom: 90%;
@@ -633,7 +640,7 @@ line-height: 1.5;
 
 .login-card h2 {
   font-family:'Permanent Marker', cursive;
-  color: rgba(150, 98, 241, 0.95);
+  color: #5d6aa6;
   font-size: 70px;
   text-transform: uppercase;
   opacity: 0.75;
@@ -671,15 +678,15 @@ line-height: 1.5;
   outline: none;
   font-size: 24px;
   padding: 10px 0 10px 20px;
-  border: 5px solid rgba(0, 0, 0, 0.3);
+  border: 5px solid #c3e6f5;
   box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
-  color: #140116;
+  color: #9093ce;
   border-radius: 50px;
 }
 
 .login-card .row2 .form-group2 label {
   line-height: 40px;
-  color: #2e2159;
+  color: #9093ce;
   font-size: 24px;
   margin: 0 0 0 30px;
   display: block;
@@ -706,7 +713,7 @@ line-height: 1.5;
   outline: none;
   background: transparent;
   text-transform: uppercase;
-  color: #b56ad6;
+  color: #b6c1fa;
   line-height: 40px;
   font-size: 24px;
   font-weight: 700;
@@ -740,7 +747,7 @@ line-height: 1.5;
 
 /* Register */
 .register-background{
-  background-image: url("/images/Nike_Air_Max_2015_womens1_native_1600.jpeg");
+  background-image: url("/images/Nike-Air-Max-720-Be-True-.jpeg");
   background-size: cover;  
   background-repeat: no-repeat;
   padding: 74em;   
@@ -767,8 +774,8 @@ line-height: 1.5;
   font-family:'Permanent Marker', cursive;
   width: 50%;
   padding: 53px 90px 90px 90px;
-  border: 6px solid rgba(64, 26, 125, 0.3);
-  box-shadow: 20px 20px 0 #b56ad6;
+  border: 6px solid #c5c3ca;;
+  box-shadow: 20px 20px 0 #353638;
   border-radius: 50px;
   position: relative; 
   bottom: 90%;
@@ -777,7 +784,7 @@ line-height: 1.5;
 
 .register-card h2 {
   font-family:'Permanent Marker', cursive;
-  color: rgba(150, 98, 241, 0.95);
+  color: #fe42af;
   font-size: 70px;
   text-transform: uppercase;
   opacity: 0.75;

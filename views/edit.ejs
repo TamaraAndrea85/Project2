@@ -1,4 +1,4 @@
-<section class="background"></section> 
+<div class="background"></div>
 <div class="edit-div">
 <div class="edit-card">
     
@@ -6,7 +6,8 @@
     <div class="row">
       <div class="col">
         <div class="form-group">
-            <form action="/sneaker/<%=sneaker.id %>?_method=PUT" method="POST">
+          <form action="/sneaker/<%= sneaker.id %>/show/?_method=PUT" method='POST'>
+            
                 <label>Name</label>
                 <input class="edit-input"  type="text" value='<%= sneaker.name %>'>
         </div>
@@ -45,12 +46,17 @@
           <input class="edit-input" type="text"value='<%= sneaker.worn %>'>
         </div>
       </div>
+      
   
       <div class="col">
-        <input class="edit-input" type="submit" value='Edit Sneaker'>
-    </form>
+        <input type="submit" value='Edit Sneaker'class="edit-input">
+      </form>
+    
       </div>
     </div>
 </div>
+
+    
+
 
 

@@ -3,14 +3,16 @@
     <img class="banner-img" src="/images/Su15_RN_Vomero_W_Hero_Tight_hd_1600.jpeg">
   </div>
 </head>
-<div class="heading">Sneakers</div>
+<div class="heading">My Collection</div>
 
 <div class="index-wrapper">
   <% sneakers.forEach(sneaker => { %>
 
   <div class="sneaker">
     <div class="sneaker-polaroid"><img src="<%= sneaker.img%>">
-      <div class="name"><a style="font-family: 'Architects Daughter', cursive;" href="/sneaker/<%= sneaker.id %>/show"><%= sneaker.name %></a></div>
+      <div id="name">
+        <a style="text-decoration: none; font-family: 'Architects Daughter', cursive;color: #685267;font-size: 46px;" href="/sneaker/<%= sneaker.id %>/show"><%= sneaker.name %></a>
+      </div>
     </div>
   </div>
 
