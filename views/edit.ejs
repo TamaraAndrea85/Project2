@@ -1,41 +1,43 @@
-<div class="edit-body">
+<section class="background"></section> 
+<div class="edit-div">
 <div class="edit-card">
+    
     <h2>Edit Sneaker</h2>
     <div class="row">
       <div class="col">
         <div class="form-group">
             <form action="/sneaker/<%=sneaker.id %>?_method=PUT" method="POST">
-          <label>Name</label>
-          <input type="text" value='<%= sneaker.name %>'>
+                <label>Name</label>
+                <input class="edit-input"  type="text" value='<%= sneaker.name %>'>
         </div>
-      </div>
+    </div>
   
-      <div class="col">
+    <div class="col">
         <div class="form-group">
           <label>Brand</label>
           <input class="edit-input" type="text"value='<%= sneaker.brand %>'>
         </div>
-      </div>
+    </div>
   
       <div class="col">
         <div class="form-group">
           <label>ColorWay</label>
           <input class="edit-input" type="text"value='<%= sneaker.colorWay %>'>
         </div>
-      </div>
-      <div class="col">
+    </div>
+    <div class="col">
         <div class="form-group">
           <label>Image</label>
           <input class="edit-input" type="text"value='<%= sneaker.img %>'>
         </div>
-      </div>
+    </div>
   
       <div class="col">
         <div class="form-group">
           <label>Size</label>
           <input class="edit-input" type="text"value='<%= sneaker.size %>'>
         </div>
-      </div>
+    </div>
   
       <div class="col">
         <div class="form-group">
@@ -49,5 +51,6 @@
     </form>
       </div>
     </div>
-  </div>
 </div>
+
+
